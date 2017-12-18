@@ -1,0 +1,9 @@
+{
+  "name": "EventBus",
+  "version": "1.0.0",
+  "description": "A simple EventBus tool for JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/alwaysonlinetxm/EventBus.git",
+  "author": "alwaysonlinetxm",
+  "license": "MIT"
+}
