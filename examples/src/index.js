@@ -1,4 +1,5 @@
-import EventBus from '../../dist/index.es';
+// import EventBus from '../../dist/index.es';
+import EventBus from 'tiny-event-bus-js';
 
 const publish = document.querySelector('#publish');
 const h1 = document.querySelector('#h1');

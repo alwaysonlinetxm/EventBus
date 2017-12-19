@@ -15,5 +15,8 @@
     "rollup-plugin-fill-html": "^1.1.0",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-watch": "^4.0.0"
+  },
+  "dependencies": {
+    "tiny-event-bus-js": "^1.0.0"
   }
 }

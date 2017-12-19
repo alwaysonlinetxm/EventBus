@@ -1,6 +1,6 @@
 import html from 'rollup-plugin-fill-html';
-// import commonjs from 'rollup-plugin-commonjs';
-// import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
+import resolve from 'rollup-plugin-node-resolve';
 
 export default {
   input: 'src/index.js',
@@ -9,8 +9,8 @@ export default {
     format: 'iife',
   },
   plugins: [
-    // resolve(),
-    // commonjs(),
+    resolve(),
+    commonjs(),
     html({
       template: 'src/index.html',
       filename: 'index.html'
