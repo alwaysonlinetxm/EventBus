@@ -16,7 +16,8 @@ export default {
     resolve(),
     commonjs(),
     babel({
-      runtimeHelpers: true
+      runtimeHelpers: true,
+      exclude: 'node_modules/**'
     })
   ]
 };

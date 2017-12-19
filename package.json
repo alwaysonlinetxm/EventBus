@@ -7,6 +7,14 @@
   "repository": "https://github.com/alwaysonlinetxm/EventBus.git",
   "author": "alwaysonlinetxm",
   "license": "MIT",
+  "files": [
+    "src",
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "EventBus"
+  ],
   "scripts": {
     "build": "rollup -c",
     "eslint": "eslint src",
