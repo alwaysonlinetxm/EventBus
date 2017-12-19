@@ -1,5 +1,5 @@
 {
-  "name": "event-bus",
+  "name": "tiny-event-bus-js",
   "version": "1.0.0",
   "description": "A simple EventBus tool for JavaScript",
   "main": "dist/index.cjs.js",
