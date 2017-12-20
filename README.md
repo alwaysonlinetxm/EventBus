@@ -1,6 +1,18 @@
 # EventBus
 A simple EventBus tool for JavaScript
 
+## install 
+
+```JavaScript
+yarn add tiny-event-bus-js
+```
+
+And import in your project:
+
+```JavaScript
+import EventBus from 'tiny-event-bus-js';
+```
+
 ## API
 
 #### register(type: string)
